@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import main from '../assets/images/main.svg';
 import Wrapper from '../assets/wrappers/LandingPage';
+import { Logo } from '../components';
 const Landing = () => {
     return (
         <Wrapper>
             <nav>
-                <h1>test logo</h1>
+                <Logo />
             </nav>
             <div className='container page'>
                 {/* info */}
