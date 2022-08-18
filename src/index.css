@@ -331,3 +331,23 @@ ul {
 .Toastify__toast {
   text-transform: capitalize;
 }
+.saru{
+height:50vh;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.saru label{
+  margin-right: 20px;
+}
+.sushu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50vw;
+}
+.sushu button{
+  border:2px solid black;
+  padding: 5px;
+}
